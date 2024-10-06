@@ -274,6 +274,12 @@ header {
 }
 .card-title {
     margin-bottom: .75rem !important;
+    height: calc(2em * 1.2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 
 /* Search Overlay */
@@ -741,6 +747,10 @@ header {
     width: 45%;
     height: auto;
     margin: 20px auto !important;
+}
+
+.blog-post > img {
+    aspect-ratio: 1;
 }
 
 .blog-post:hover {
