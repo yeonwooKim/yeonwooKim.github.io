@@ -662,7 +662,7 @@ header {
 .article-card{
     list-style-type: none;
 }
-.article-card a :hover{
+.article-card a > :hover{
     text-decoration: none;
     background: #eeee!important;
     border-color: #eeee;
